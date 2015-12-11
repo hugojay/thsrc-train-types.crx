@@ -1,0 +1,15 @@
+.trainTypeLable {
+    background: #7201AB;
+    color: #FFF;
+    padding: 1px 3px;
+    border-radius: 2px;
+    margin-left: 2px;
+}
+.trainTypeLable.type-3 {
+    background: #FA9E00;
+}
+.trainTypeLable.type-1, .trainTypeLable.type-2 {
+    background: #ED2E35;
+}.trainTypeLable.type-5, .trainTypeLable.type-6, .trainTypeLable.type-8 {
+    background: #005BBB;
+}

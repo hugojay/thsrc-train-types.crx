@@ -1,0 +1,15 @@
+{
+	"name": "台灣高鐵",
+	"version": "0.1",
+	"description": "高鐵為何不增列直達車、跳蛙式、站站停等「車種」？試試看，一目了然！",
+	"homepage_url": "https://github.com/hugojay/thsrc-train-types.crx",
+	"content_scripts": [
+		{
+			"matches": ["*://*.thsrc.com.tw/*"],
+			"js": ["thsrc-train-types.js"],
+			"css": ["thsrc-train-types.css"],
+			"run_at": "document_idle"
+		}
+	],
+	"manifest_version": 2
+}
