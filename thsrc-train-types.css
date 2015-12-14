@@ -1,15 +1,21 @@
-.trainTypeLable {
+a.trainTypeLable {
     background: #7201AB;
     color: #FFF;
-    padding: 1px 3px;
+    padding: 1px 2px;
     border-radius: 2px;
-    margin-left: 2px;
+    margin-left: 3px;
 }
-.trainTypeLable.type-3 {
-    background: #FA9E00;
+a.trainTypeLable, a.trainTypeLable:hover {
+    color: #FFF !important;
+    text-decoration: none !important;
+    cursor: help;
 }
 .trainTypeLable.type-1, .trainTypeLable.type-2 {
     background: #ED2E35;
-}.trainTypeLable.type-5, .trainTypeLable.type-6, .trainTypeLable.type-8 {
+}
+.trainTypeLable.type-3, .trainTypeLable.type-6 {
+    background: #FA9E00;
+}
+.trainTypeLable.type-5, .trainTypeLable.type-8 {
     background: #005BBB;
 }
