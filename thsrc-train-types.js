@@ -23,12 +23,21 @@ function main() {
             trains = document.querySelectorAll("#setTrainCode0");
         }
     } else if (locationPath.match(/\/tw\/Article\/ArticleContent\//)) {
+        // 早鳥優惠適用車次表
         caption = document.querySelectorAll("caption");
         if (caption) {
             if (caption[1].innerHTML.match(/早鳥優惠車次內容/)) {
                 trains = document.querySelectorAll(".SB td:first-child, .NB td:first-child");
             }
         }
+    } else if (locationPath.match(/\/TimeTable\/DailyTimeTable/)) {
+        // 時刻表查詢(檢視當日時刻表)
+        trains = document.querySelectorAll(".text_orange_link");
+    } else if (locationPath.match(/\/tw\/FullyOccupied\/Detail\//)) {
+        // 疏運期間銷售資訊
+        trains = document.querySelectorAll("table td:first-child");
+    } else {
+        return false;
     }
 
     // mark for injection completed
