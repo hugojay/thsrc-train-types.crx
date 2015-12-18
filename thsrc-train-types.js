@@ -1,5 +1,5 @@
 var thsrcTrainTypesInjected = "thsrc-train-types-injected",
-    thsrcTrainTypesHelpPage = "https://www.google.com/search?q=%E7%A7%92%E6%87%82%E9%AB%98%E9%90%B5%E7%A5%A8&tbm=isch&dpr=2#imgrc=lkjEjCROiaP-KM%3A",
+    thsrcTrainTypesHelpPage = "http://hugojay.com/thsrc-train-types/?help#help",
     toBeMarkedQuery = "#BookingS2Form_TrainQueryDataViewPanel, #HistoryDetailsModifyTripS2Form_TrainQueryDataViewPanel";
 
 function main() {
@@ -66,7 +66,7 @@ function main() {
                     break;
                 case "3":
                     // 台中以南站站停
-                    trainTypeText = "跳蛙式";
+                    trainTypeText = "南跳蛙";
                     break;
                 case "5":
                     // 台北到台中或台中到左營
@@ -74,11 +74,11 @@ function main() {
                     break;
                 case "6":
                     // 不停新增3站
-                    trainTypeText = "８站停";
+                    trainTypeText = "北蛙跳";
                     break;
                 case "8":
                     // 每站停
-                    trainTypeText = "各站停";
+                    trainTypeText = "站站停";
                     break;
             }
 
