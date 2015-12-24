@@ -80,6 +80,9 @@ function main() {
                     // 每站停
                     trainTypeText = "站站停";
                     break;
+                default:
+                    trainTypeText = "未知號";
+                    break;
             }
 
             var trainTypeLable = document.createElement("a");
